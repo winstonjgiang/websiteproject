@@ -118,7 +118,7 @@ nav img
 p
 {
     color: #009688;
-    font-sizssssse: 14px;
+    font-size: 14px;
     line-height: 22px;
     padding: 10px;
 }
@@ -168,18 +168,7 @@ h3
     width: 100%;
     
 }
-.layer1 h3
-{
-    font-size: 30px;
-    color: rgb(206, 250, 12);
-    margin-top: 200px;
-    opacity: 0;
-    transition: 0.5s;
-}
-.layer1 h3:hover
-{
-    opacity: 100%;
-}
+
 .layer1
 {
     background: transparent;
@@ -188,24 +177,20 @@ h3
     position: absolute;
     top: 0;
     left: 0;
-    transition: 0.5s;
-}
-.layer1:hover
-{
-    background: #00968783;
-}
-.layer2 h3
-{
     font-size: 30px;
-    color: rgb(231, 56, 56);
-    margin-top: 200px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: rgb(206, 250, 12);
+    margin: auto;
     opacity: 0;
     transition: 0.5s;
 }
-.layer2 h3:hover
+.layer1:hover 
 {
+    background: #00968783;
     opacity: 100%;
+
 }
+
 .layer2
 {
     background: transparent;
@@ -214,24 +199,19 @@ h3
     position: absolute;
     top: 0;
     left: 0;
+    font-size: 30px;
+    color: rgb(206, 250, 12);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: auto;
+    opacity: 0;
     transition: 0.5s;
 }
 .layer2:hover
 {
     background: #00968783;
-}
-.layer3 h3
-{
-    font-size: 30px;
-    color:rgb(221, 65, 169);
-    margin-top: 200px;
-    opacity: 0;
-    transition: 0.5s;
-}
-.layer3 h3:hover
-{
     opacity: 100%;
 }
+
 .layer3
 {
     background: transparent;
@@ -240,11 +220,17 @@ h3
     position: absolute;
     top: 0;
     left: 0;
+    font-size: 30px;
+    color: rgb(206, 250, 12);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: auto;
+    opacity: 0;
     transition: 0.5s;
 }
 .layer3:hover
 {
     background: #00968783;
+    opacity: 100%;
 }
 
 /* ABOUT SECTION */
